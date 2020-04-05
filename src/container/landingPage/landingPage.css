@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'balrow';
+    src: url(../../font/BarlowLight.ttf);
+}
+
+
+.containerBg {
+    background-image: url(../../image/img/Framean.png);
+    font-family: 'barlow';
+    font-size: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.title {
+    color: #116A55;
+}
+
+.main-banner {
+    font-size: 1.3rem;
+}
+
+.button-landing {
+    background-image: linear-gradient(229.57deg, #8CDE53 24.53%, #239D5B 75.64%);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: .3s;
+    
+}
+
+.button-landing:hover {
+    background-image: none;
+    border: 1px solid #239D5B;
+    color: #8CDE53;
+}
+
+.search {
+    margin-top: -40px;
+}

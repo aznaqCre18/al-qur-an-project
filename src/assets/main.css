@@ -578,6 +578,14 @@ video {
   height: auto;
 }
 
+@font-face {
+  font-family: balrow;
+
+  font-weight: 400;
+
+  src: url(./../font/BarlowLight.ttf) format("ttf");
+}
+
 .container {
   width: 100%;
 }
