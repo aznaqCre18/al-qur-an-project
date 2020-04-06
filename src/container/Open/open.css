@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+.droid-arabic-naskh{font-family: 'Droid Arabic Naskh', serif;}
+
+.containerBackground {
+    background-image: url(./../../image/img/bgPage2.png);
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-family: balrow;
+    font-size: 25px;
+}
+
+.search-colom {
+    background-color: #f5f5f5;
+}
+
+.main-surah-container {
+    height: 80vh;
+    background-color: #fff !important; 
+    position: fixed;
+    bottom: 0;
+    left: 4rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+    font-family: 'Droid Arabic Naskh', serif;
+    text-align: right;
+}
+
+.list-surah-container {
+    position: fixed;
+    bottom: 120px;
+    right: 1.7rem;
+    border-radius: 20px;
+    height: 60vh;
+}
+
+@media only screen and (max-width: 1024px) {
+    .main-surah-container{
+        left: 3rem;
+    }
+
+    .list-surah-container {
+        right: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-surah-container{
+        left: 2rem;
+    }
+
+    .list-surah-container {
+        right: .9rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .main-title-page2 {
+        margin-left: 2.5rem;
+    }
+
+    .main-surah-container{
+        margin: auto;
+        width: 85% !important;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .list-surah-container {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .main-title-page2 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .main-surah-container {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    
+    .main-surah-container {
+        margin-left: -.4rem;
+    }
+}

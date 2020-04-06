@@ -4,7 +4,13 @@
     font-family: balrow;
     font-weight: 400;
     src: url(./../font/BarlowLight.ttf) format("ttf");
-  }
+}
+
+@font-face {
+  font-family: arab;
+  font-weight: 400;
+  src: url(./../font/HelveticaWorld-Bold.ttf) format("ttf");
+}
 
 @tailwind components;
 
